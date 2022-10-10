@@ -13,7 +13,7 @@ public class SpringBootActionsApplication {
 
     @GetMapping("/welcome")
     public String home() {
-        return "Bem vindo ao Spring Boot Actions e Docker";
+        return "Bem vindo ao Spring Boot Actions e Docker ok";
     }
 
     public static void main(String[] args) {
