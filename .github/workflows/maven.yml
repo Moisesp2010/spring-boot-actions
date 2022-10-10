@@ -30,7 +30,6 @@ jobs:
       with:
         image: moises3535/springboot-actions-new
         tags: latest
-        registry: docker.io
         dockerfile: Dockerfile
         password: ${{ secrets.DOCKER_PASSWORD }}
         username: ${{ secrets.DOCKER_USERNAME }}
