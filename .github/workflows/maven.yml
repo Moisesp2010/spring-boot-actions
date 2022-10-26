@@ -25,15 +25,6 @@ jobs:
       - name: Build with Maven
         run: mvn clean install
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
 
-      - name: Build and push
-        rum: | 
-            docker build -t app .
-            docker login -u Moises3535 -p i&qQ7ZOTjA34 
-            docker tag app Moises3535/test:latest
-            docker push Moises3535/test:latest
             
 
